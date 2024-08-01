@@ -1,0 +1,65 @@
+header{
+    height: 1000PX; /*высота блока*/
+    background-color: burlywood;
+    color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/ru-ru/migrated-images/2016/11/pvz2-ea-hero-pvz2-xl.jpg.adapt.crop16x9.1023w.jpg);
+    background-size: 100%;
+}
+
+header h1{
+    margin:0;
+    padding-top: 20%;
+    font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+main{
+    background-color: rgb(0, 255, 21);
+    color: rgb(229, 255, 0);
+    text-align: left;
+    font-size: 30px;
+    background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262240/ss_caf80694f346147b5715ef9efec394169f3dda2c.1920x1080.jpg?t=1614957327);
+    background-size: cover;
+    padding: 20px;
+    
+    
+    
+
+}
+footer{
+    padding-top: 50px;
+    height: 100%; /*высота блока*/
+    background-color: rgb(116, 145, 36);
+    color: rgb(204, 127, 255);
+    text-align: center;
+    font-size: 30px;
+    background-image: url(https://www.diera.ru/blog/content/images/2015/07/--------------2015-07-07---19-28-12.png);
+    text-shadow: 2px 2px 5px #000;
+}
+.container{
+    margin:-20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    text-align: center;
+    width:50%;
+}
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    width: 100px;
+    padding-right: 10px;
+}
